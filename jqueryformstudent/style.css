@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.studentform{
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+.form-infomation{
+    margin-top: 20px;
+}
+
+.form-infomation .form-control {
+    width: 100%;
+}
+
+.text-name p{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+
+
+.text-muted{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.text-muted p{
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    top: -6px;
+}
+
+.btn-save{
+    position: absolute;
+    padding: 5px 30px;
+    right: 40%;
+}
+
+.btn-reset{
+    padding: 5px 30px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .form-infomation label {
+        width: 100px; 
+        margin-right: 10px;
+    }
+    .text-muted p{
+        left: 21%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .studentform{
+        max-width: 98%;
+    }
+    .form-infomation label {
+        width: 50px;
+        margin-right: 30px; 
+    }
+    .text-muted p{
+        left: 27%;
+    }
+
+}
